@@ -49,7 +49,7 @@ public class CommentWordCount {
 			// Remove some annoying punctuation
 			txt = txt.replaceAll("'", ""); // remove single quotes (e.g., can't)
 			txt = txt.replaceAll("[^a-zA-Z]", " "); // replace the rest with a
-													// space
+			// space
 
 			// Tokenize the string, then send the tokens away
 			StringTokenizer itr = new StringTokenizer(txt);
